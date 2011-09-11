@@ -50,3 +50,51 @@
 	path = bundle/ir_black
 	url = git://github.com/wgibbs/vim-irblack
   ignore = dirty
+[submodule "bundle/indent-object"]
+	path = bundle/indent-object
+	url = git://github.com/michaeljsmith/vim-indent-object.git
+  ignore = dirty
+[submodule "bundle/surround"]
+	path = bundle/surround
+	url = git://github.com/tpope/vim-surround.git
+  ignore = dirty
+[submodule "bundle/taglist"]
+	path = bundle/taglist
+	url = git://github.com/vim-scripts/taglist.vim.git
+  ignore = dirty
+[submodule "bundle/vividchalk"]
+	path = bundle/vividchalk
+	url = https://github.com/tpope/vim-vividchalk.git
+  ignore = dirty
+[submodule "bundle/colors-solarized"]
+	path = bundle/colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+  ignore = dirty
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+  ignore = dirty
+[submodule "bundle/textile"]
+	path = bundle/textile
+	url = git://github.com/timcharper/textile.vim.git
+  ignore = dirty
+[submodule "bundle/zoomwin"]
+	path = bundle/zoomwin
+	url = git://github.com/vim-scripts/ZoomWin
+  ignore = dirty
+[submodule "bundle/align"]
+	path = bundle/align
+	url = git://github.com/tsaleh/vim-align.git
+  ignore = dirty
+[submodule "bundle/searchfold"]
+	path = bundle/searchfold
+	url = git://github.com/vim-scripts/searchfold.vim.git
+  ignore = dirty
+[submodule "bundle/endwise"]
+	path = bundle/endwise
+	url = git://github.com/tpope/vim-endwise.git
+  ignore = dirty
+[submodule "bundle/molokai"]
+	path = bundle/molokai
+	url = git://github.com/mrtazz/molokai.vim.git
+  ignore = dirty
