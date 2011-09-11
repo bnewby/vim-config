@@ -98,3 +98,6 @@
 	path = bundle/molokai
 	url = git://github.com/mrtazz/molokai.vim.git
   ignore = dirty
+[submodule "bundle/javascript"]
+	path = bundle/javascript
+	url = git://github.com/pangloss/vim-javascript.git
