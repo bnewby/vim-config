@@ -69,26 +69,26 @@ set visualbell
 set guioptions-=T
 
 " Default gui color scheme
-color ir_black
+color xoria256
 
 " Project Tree
 if exists("loaded_nerd_tree")
   autocmd VimEnter * call s:CdIfDirectory(expand("<amatch>"))
   autocmd FocusGained * call s:UpdateNERDTree()
-  autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
+  " autocmd WinEnter * call s:CloseIfOnlyNerdTreeLeft()
 endif
 
 " Close all open buffers on entering a window if the only
 " buffer that's left is the NERDTree buffer
-function s:CloseIfOnlyNerdTreeLeft()
-  if exists("t:NERDTreeBufName")
-    if bufwinnr(t:NERDTreeBufName) != -1
-      if winnr("$") == 1
-        q
-      endif
-    endif
-  endif
-endfunction
+" function s:CloseIfOnlyNerdTreeLeft()
+  " if exists("t:NERDTreeBufName")
+    " if bufwinnr(t:NERDTreeBufName) != -1
+      " if winnr("$") == 1
+        " q
+      " endif
+    " endif
+  " endif
+" endfunction
 
 " If the parameter is a directory, cd into it
 function s:CdIfDirectory(directory)

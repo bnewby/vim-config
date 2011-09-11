@@ -1,5 +1,5 @@
 " Activate pathogen
-call pathogen#runtime_append_all_bundles()
+call pathogen#infect()
 call pathogen#helptags()
 
 set nocompatible
@@ -129,7 +129,7 @@ set modeline
 set modelines=10
 
 " Default color scheme
-color desert
+color xoria256
 
 " Directories for swp files
 set backupdir=~/.vim/backup
