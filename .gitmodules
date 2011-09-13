@@ -82,10 +82,6 @@
 	path = bundle/zoomwin
 	url = git://github.com/vim-scripts/ZoomWin
   ignore = dirty
-[submodule "bundle/align"]
-	path = bundle/align
-	url = git://github.com/tsaleh/vim-align.git
-  ignore = dirty
 [submodule "bundle/searchfold"]
 	path = bundle/searchfold
 	url = git://github.com/vim-scripts/searchfold.vim.git
@@ -100,4 +96,5 @@
   ignore = dirty
 [submodule "bundle/javascript"]
 	path = bundle/javascript
-	url = git://github.com/pangloss/vim-javascript.git
+  url = git://github.com/pangloss/vim-javascript.git
+  ignore = dirty
