@@ -71,6 +71,12 @@ set guioptions-=T
 " Default gui color scheme
 color xoria256
 
+" ConqueTerm wrapper
+function StartTerm()
+  execute 'ConqueTerm ' . $SHELL . ' --login'
+  setlocal listchars=tab:\ \ 
+endfunction
+
 " Project Tree
 if exists("loaded_nerd_tree")
   autocmd VimEnter * call s:CdIfDirectory(expand("<amatch>"))

@@ -98,3 +98,6 @@
 	path = bundle/javascript
   url = git://github.com/pangloss/vim-javascript.git
   ignore = dirty
+[submodule "bundle/conque"]
+	path = bundle/conque
+	url = git://github.com/vim-scripts/Conque-Shell.git
