@@ -100,7 +100,7 @@
   ignore = dirty
 [submodule "bundle/conque"]
 	path = bundle/conque
-	url = git://github.com/vim-scripts/Conque-Shell.git
+  url = git://github.com/rosenfeld/conque-term.git
   ignore = dirty
 [submodule "bundle/matchit"]
 	path = bundle/matchit
